@@ -1,0 +1,5 @@
+<form [formGroup]="register" (ngSubmit)="registreando()">
+    <input type="email" formControlName="correo" name="correo">
+    <input type="password" formControlName="contraseña" name="contraseña">
+    <button type="submit">crear cuenta</button>
+</form>

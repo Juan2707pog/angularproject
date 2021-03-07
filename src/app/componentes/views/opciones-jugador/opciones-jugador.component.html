@@ -1,0 +1,26 @@
+<form [formGroup]="addJugador" (ngSubmit)="anadirJugadorCreado()">
+    <input type="text" formControlName="nombre" placeholder="nombre">
+    <input type="text" formControlName="equipo"  placeholder="equipo">
+    <input type="text" formControlName="posicion" placeholder="posicion">
+    <input type="text" formControlName="numero"  placeholder="numero">
+    <button type="submit">crear</button>
+</form>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Equipo</th>
+        <th scope="col">Posición</th>
+        <th scope="col">Número</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let jugador of jugadores">
+        <td>{{jugador.nombre}}</td>
+        <td>{{jugador.equipo}}</td>
+        <td>{{jugador.posicion}}</td>
+        <td>{{jugador.numero}}</td>
+        <td><button class="btn btn-danger" (click)="borrarJugador(jugador.nombre)">Borrar</button></td>
+      </tr>
+    </tbody>
+  </table>
