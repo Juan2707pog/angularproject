@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Link de subida
+
+ https://priceless-shannon-d5df1f.netlify.app
+ 
+## Figma
+
+https://www.figma.com/file/g8OgkjqwAauoEhj0KE3g8V/Untitled?node-id=0%3A1
